@@ -4,3 +4,7 @@
 =========================
 [demo](http://ai.newweigang.cn/2018/css3-close/css-close.html);
 ********************
+2.如何编写自己的loader
+[编写一个适合自己的loader](https://github.com/qingclass/2018);
+3.一天一道算法题
+[一天一道算法题](https://github.com/qingclass/2018/tree/master/algorithm)
