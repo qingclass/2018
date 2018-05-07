@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>This is clone</title>
+    <style>
+        .contest{
+            height: 200px;
+            width: 200px;
+            border:1px solid #ccc;
+        }
+        .test {
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 0;
+            left: 176px;
+            transition: all 0.5s linear;
+            margin-top: 26px;
+        }
+
+        .test:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            margin: 0 auto;
+            padding: 0;
+            background-color: red;
+            overflow: hidden;
+            transform: rotate(45deg);
+            transition: all 0.5s linear;
+        }
+
+        .test::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            margin: 0 auto;
+            padding: 0;
+            background-color: red;
+            overflow: hidden;
+            transform: rotate(135deg);
+            transition: all 0.5s linear;
+        }
+
+        .test:hover::before {
+            transform: rotate(215deg);
+            transition: All 0.5s linear;
+        }
+
+        .test:hover::after {
+            transform: rotate(135deg);
+            transition: All 0.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contest">
+        这块是文本内容
+        <div class="test"></div>
+    </div>
+    <script>
+        var test = document.getElementsByClassName('test')[0];
+        var contest = document.getElementsByClassName("contest")[0];
+        test.addEventListener('click',function(){
+            contest.style.display = "none"
+        })
+    </script>
+</body>
+
+</html>
