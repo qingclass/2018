@@ -3,6 +3,11 @@
 #持续更新中,尽请期待 欢迎start  共同进步
 
 
+## Math.sqrt()  (leetcode 367) 2018.5.9
+========================  
+[题目](https://github.com/qingclass/2018/tree/master/algorithm/isPerfectSquare)  
+[js解析](https://github.com/qingclass/2018/blob/master/algorithm/isPerfectSquare/isPerfectSquare.js)
+
 ## m*n 路径的问题 (leetcode 62) 2018.5.8
 ========================  
 [题目](https://github.com/qingclass/2018/tree/master/algorithm/uniquePaths)  
