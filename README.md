@@ -14,6 +14,12 @@
 3.一天一道算法题 (持续更新中)  
 [一天一道算法题](https://github.com/qingclass/2018/tree/master/algorithm)
 
+
+##  有序矩阵中第K小的元素  (leetcode 378) 2018.5.10
+========================  
+[题目](https://github.com/qingclass/2018/tree/master/algorithm/kthSmallest)  
+[js解析](https://github.com/qingclass/2018/blob/master/algorithm/kthSmallest/kthSmallest.js)
+
 ## Math.sqrt()  (leetcode 367) 2018.5.9
 ========================  
 [题目](https://github.com/qingclass/2018/tree/master/algorithm/isPerfectSquare)  

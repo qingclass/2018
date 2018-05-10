@@ -3,6 +3,11 @@
 #持续更新中,尽请期待 欢迎start  共同进步
 
 
+##  有序矩阵中第K小的元素  (leetcode 378) 2018.5.10
+========================  
+[题目](https://github.com/qingclass/2018/tree/master/algorithm/kthSmallest)  
+[js解析](https://github.com/qingclass/2018/blob/master/algorithm/kthSmallest/kthSmallest.js)
+
 ## Math.sqrt()(根号)  (leetcode 367) 2018.5.9
 ========================  
 [题目](https://github.com/qingclass/2018/tree/master/algorithm/isPerfectSquare)  
